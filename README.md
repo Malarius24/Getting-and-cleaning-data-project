@@ -3,7 +3,7 @@ Course project for 'Getting and Cleaning Data' course on Coursera.org
 
 ### The file reads the data from the Samsung fitbit database, merges the data, labels it and summarizes per subject/activity
 
-## Each step is explained and labeled in the run_analysis.R file
+## Each step is explained and labeled in the run_analysis.R file followin the numbered steps below
 
 ## 1 Cleans the workspace and loads dependencies
 ## 2 Loads the features and activities data to label variables and activities
