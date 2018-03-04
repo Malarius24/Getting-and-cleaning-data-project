@@ -47,5 +47,7 @@ rm(data)
 
 
 ##Summarize by subject and activity
-summary <- data_selection %>% group_by(.dots = c("`data$subject`","`data$activities`")) %>% summarize_all(funs(mean))
+summary <- data_selection %>% 
+  group_by(.dots = c("`data$subject`","`data$activities`")) %>% 
+  summarize_all(funs(mean))
 
