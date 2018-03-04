@@ -1,4 +1,8 @@
+##Clear workspace
 rm(list=ls())
+
+##Load dependencies
+require(dplyr)
 
 ##Read features and activity labels
 features <- read.table("~/features.txt", stringsAsFactors = FALSE)
